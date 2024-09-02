@@ -1,7 +1,7 @@
 {
   "name": "demon-gpt-chat",
   "version": "1.0.0",
-  "description": "A chat application with DemonGPT",
+  "description": "A dark-themed chat application using GPT-4o-mini",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,7 +10,11 @@
     "body-parser": "^1.20.1",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "node-fetch": "^3.2.0",
-    "openai": "^2.0.0"  // Ensure this is the latest version compatible with the API
-  }
+    "node-fetch": "^3.2.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
 }
