@@ -1,10 +1,10 @@
 {
   "name": "demon-gpt-chat",
   "version": "1.0.0",
-  "description": "A dark-themed chat application using GPT-4o-mini",
-  "main": "server.js",
+  "description": "A chat application using GPT-4o-mini",
+  "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "body-parser": "^1.20.1",
@@ -14,7 +14,7 @@
   },
   "engines": {
     "node": "20.x"
-  }
+  },
   "author": "Your Name",
   "license": "MIT"
 }
