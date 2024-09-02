@@ -1,0 +1,16 @@
+{
+  "name": "demon-gpt-chat",
+  "version": "1.0.0",
+  "description": "A chat application with DemonGPT",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-fetch": "^3.2.0",
+    "openai": "^2.0.0"  // Ensure this is the latest version compatible with the API
+  }
+}
